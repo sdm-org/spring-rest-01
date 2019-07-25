@@ -20,6 +20,7 @@ public class SpringRestSeedControllerTests {
 	@Autowired
 	private MockMvc mockMvc;
 
+	// test
 	@Test
 	public void shouldReturnGreeting() throws Exception {
 		this.mockMvc.perform(get("/hello/Rod"))
